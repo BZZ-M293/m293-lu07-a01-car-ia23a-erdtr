@@ -8,7 +8,45 @@
 <body>
 
 <h1>Fahrzeug-Konfigurator</h1>
+<form action="https://it.bzz.ch/demo/formdata/index.php" method="post">
+  <fieldset>
+    <legend>Fahrzeugmodell auswählen</legend>
+    <label for="fahrzeugmodell">Fahrzeugmodell:</label>
+    <select id="fahrzeugmodell" name="Fahrzeugmodell">
+      <option value="ModellA">Modell A</option>
+      <option value="ModellB">Modell B</option>
+      <option value="ModellC">Modell C</option>
+      <option value="ModellD">Modell D</option>
+      <option value="ModellE">Modell E</option>
+      <option value="ModellF">Modell F</option>
+      <option value="ModellG">Modell G</option>
+      <option value="ModellH">Modell H</option>
+      <option value="ModellI">Modell I</option>
+      <option value="ModellJ">Modell J</option>
+      <option value="ModellK">Modell K</option>
+      <option value="ModellL">Modell L</option>
+      <option value="ModellM">Modell M</option>
+      <option value="ModellN">Modell N</option>
+      <option value="ModellO">Modell O</option>
+    </select>
+  </fieldset>
+  <br>
+  <fieldset>
+    <legend>Lackfarbe auswählen</legend>
+    <input type="radio" id="rot" name="Lackfarbe" value="Rot">
+    <label for="rot">Rot</label><br>
 
+    <input type="radio" id="blau" name="Lackfarbe" value="Blau">
+    <label for="blau">Blau</label><br>
 
+    <input type="radio" id="gruen" name="Lackfarbe" value="Grün">
+    <label for="gruen">Grün</label><br>
+
+    <input type="radio" id="schwarz" name="Lackfarbe" value="Schwarz">
+    <label for="schwarz">Schwarz</label>
+  </fieldset>
+  <br>
+  <button type="submit">Absenden</button>
+</form>
 </body>
 </html>
